@@ -1,0 +1,157 @@
+#h1 {
+    padding: 25px;
+    font-size: 60px;
+    letter-spacing: 9px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("p1.jpg");
+    text-align: center;
+    color: aliceblue;
+    background-position-x: 180px;
+    margin: 0px;
+    border: 1px bold blue;
+    text-shadow: 3px 3px blueviolet;
+}
+
+hr{
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid #ffffff;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*------NAVBAR------*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 60px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 5px;
+    float: left;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    float: auto;
+    border-right: 2px solid white;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(136, 63, 231);
+    border: 2px solid white;
+    margin: 0px 0px;
+    position: sticky;
+    
+}
+
+li a:hover { 
+    background-color: #f054db;
+}
+
+li a:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+/*------NAVBAR------*/
+body {
+    background-color: cornflowerblue;
+}
+
+#fieldset {
+    margin-left: 400px;
+    margin-right: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: aliceblue;
+    border: 3px solid #ffffff;
+    font-weight: bold;
+}
+
+.calculator {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+td {
+    padding: 15px;
+    margin: 0px;
+}
+/*-----rgb(23, 0, 126);----*/
+table {
+    width: 100%;
+    border: 1px solid rgb(169, 97, 202);
+    border-collapse: collapse;
+    text-align: center;
+    background-color: rgb(169, 97, 202);
+}
+
+.input {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    /*padding: 30px 200px 30px 200px;*/
+    margin: 0px;
+    color: rgba(59, 59, 59, 0.835);
+}
+
+.button {
+    border: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px;
+    cursor: pointer;
+    background-color: rgb(53, 94, 218);
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 2px 1px black;
+}
+
+.button:hover {
+    background-color: rgb(169, 0, 253);
+}
+
+.button:active {
+    box-shadow: 0 1px black;
+    transform: translateY(4px);
+}
+
+#screen {
+    text-align: right;
+}
+
+#clearbutton {
+    background-color: rgb(189, 2, 173);
+}
+
+#clearbutton:hover {
+    background-color: blueviolet;
+}
+
+#deletebutton {
+    background-color: rgb(16, 202, 235);
+}
+
+#deletebutton:hover {
+    background-color: rgb(92, 19, 160);
+}
+
+#brs, #brf {
+    background-color: rgb(3, 3, 194);
+}
+
+#brs:hover, #brf:hover {
+    background-color: rgb(138, 6, 143);
+}
+
+

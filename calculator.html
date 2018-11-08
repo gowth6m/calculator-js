@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="jscript.js"></script>
+</head>
+<body>
+    <h1 id="h1"><b>Web Development</b></h1>
+    <hr>
+    <br>
+    <div class="calculator1">
+        <fieldset id="fieldset">
+            <legend>Calculator</legend>
+            <table id="table" name="calculator" class="calculator" border="1">
+                <tr>
+                    <td colspan="4">
+                        <input type="text" name="input" class="input" id="screen" placeholder="0" readonly="readonly">
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="button" id="num1" name="num1" value="1" class="button" onclick="ops(this)"></td>
+                    <td><input type="button" id="num2" name="num2" value="2" class="button" onclick="ops(this)"></td>
+                    <td><input type="button" id="num3" name="num3" value="3" class="button" onclick="ops(this)"></td>
+                    <td><input type="button" id="plus" name="plus" value="+" class="button" onclick="ops(this)"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" id="num4" name="4" value="4" class="button" onclick="ops(this)"></td>
+                    <td><input type="button" id="num5" name="5" value="5" class="button" onclick="ops(this)"></td>
+                    <td><input type="button" id="num6" name="6" value="6" class="button" onclick="ops(this)"></td>
+                    <td><input type="button" id="minus" name="minus" value="-" class="button" onclick="ops(this)"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" id="num7" name="7" value="7" class="button" onclick="ops(this)"></td>
+                    <td><input type="button" id="num8" name="8" value="8" class="button" onclick="ops(this)"></td>
+                    <td><input type="button" id="num9" name="9" value="9" class="button" onclick="ops(this)"></td>
+                    <td><input type="button" id="mul" name="mul" value="*" class="button" onclick="ops(this)"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" id="dot" name="dot" value="." class="button" onclick="ops(this)"></td>
+                    <td><input type="button" id="num0" name="num0" value="0" class="button" onclick="ops(this)"></td>
+                    <td><input type="button" id="equal" name="equal" value="=" class="button" onclick="ops(this)"></td>
+                    <td><input type="button" id="divi" name="divi" value="/" class="button" onclick="ops(this)"></td>
+                </tr>
+                <tr>
+                    <td colspan="1"><input type="button" name="clear" value="C" class="button" id="clearbutton" onclick="ops(this)"></td>
+                    <td colspan="1"><input type="button" name="delete" value="D" class="button" id="deletebutton" onclick="ops(this)"></td>
+                    <td><input type="button" id="brs" name="brs" value="(" class="button" onclick="ops(this)"></td>
+                    <td><input type="button" id="brf" name="brf" value=")" class="button" onclick="ops(this)"></td>
+                </tr>    
+            </table>
+        </fieldset>
+    </div>
+</body>
+<html>
